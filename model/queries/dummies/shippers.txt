@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS shippers(
+   ShipperID   INTEGER  NOT NULL PRIMARY KEY 
+  ,ShipperName VARCHAR(16) NOT NULL
+  ,Phone       VARCHAR(14) NOT NULL
+);
+INSERT INTO shippers(ShipperID,ShipperName,Phone) VALUES (1,'Speedy Express','(503) 555-9831');
+INSERT INTO shippers(ShipperID,ShipperName,Phone) VALUES (2,'United Package','(503) 555-3199');
+INSERT INTO shippers(ShipperID,ShipperName,Phone) VALUES (3,'Federal Shipping','(503) 555-9931');
